@@ -5,7 +5,7 @@ p {
 /* 1. Selector por nombre de etiqueta */
 h1 {
     font-size: 120%;
-    }
+    };
     /*
     Los selectores son h1 y p.
     El ; al final de una propiedad es obligatorio.
@@ -20,4 +20,11 @@ h1 {
 #navigation {
     border: 1px solid black;
     padding: 40px;
+    };
+
+    /* 3. Selector decendente */
+
+/*Tomamos los elementos "a" que se encuentran dentro de los elementos "li" */
+li a {
+    text-decoration: none;
     };
