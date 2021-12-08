@@ -5,33 +5,44 @@ p {
 /* 1. Selector por nombre de etiqueta */
 h1 {
     font-size: 120%;
-    };
+    }
     /*
     Los selectores son h1 y p.
     El ; al final de una propiedad es obligatorio.
     */
     p {
     font-size: 90%;
-    };
+    }
 
     /* 2. Selector por ID */
 
     /* El caracter # seguido por el ID navigation es el selector*/
 #navigation {
-    border: 1px solid rgb(197, 13, 13);
+    border: 1px solid rgb(19, 18, 18);
     padding: 40px;
-    };
+    }
 
     /* 3. Selector decendente */
 
 /*Tomamos los elementos "a" que se encuentran dentro de los elementos "li" */
 li a {
     text-decoration: none;
-    };
+    }
 
 /* 4. Selector universal */
 
 * {
     font-family: verdana, arial, sans-serif;
-    };
+    }
+    /*
+    El selector universal se representa con un asterisco (*), significa que todos
+    los elementos se aplicara este estilo
+    */
+    
+/* 5. Selectores de "padre > hijo" */
+
+div > strong {
+    text-decoration: none;
+    }
+
     
