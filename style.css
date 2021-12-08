@@ -13,3 +13,11 @@ h1 {
     p {
     font-size: 90%;
     };
+
+    /* 2. Selector por ID */
+
+    /* El caracter # seguido por el ID navigation es el selector*/
+#navigation {
+    border: 1px solid black;
+    padding: 40px;
+    };
