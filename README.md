@@ -4,3 +4,5 @@
 * El ID de un elemento HTML debe ser único dentro de la estructura del DOM. Si quieres aplicar a estilos a un elemento en especifico lo puedes hacer por medio del ID.
 * En nuestro ejemplo tenemos tres elementos <li> que dentro tienen un elemento <a> cada uno.
 * Estos serian los seleccionados para aplicarle los estilos.
+* El selector universal se representa con un asterisco (*), significa que todos
+los elementos se aplicara este estilo.

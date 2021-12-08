@@ -18,7 +18,7 @@ h1 {
 
     /* El caracter # seguido por el ID navigation es el selector*/
 #navigation {
-    border: 1px solid black;
+    border: 1px solid rgb(197, 13, 13);
     padding: 40px;
     };
 
@@ -28,3 +28,10 @@ h1 {
 li a {
     text-decoration: none;
     };
+
+/* 4. Selector universal */
+
+* {
+    font-family: verdana, arial, sans-serif;
+    };
+    
