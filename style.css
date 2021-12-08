@@ -1,0 +1,15 @@
+p {
+    font-size: 12px !important;
+    };
+
+/* 1. Selector por nombre de etiqueta */
+h1 {
+    font-size: 120%;
+    }
+    /*
+    Los selectores son h1 y p.
+    El ; al final de una propiedad es obligatorio.
+    */
+    p {
+    font-size: 90%;
+    };
