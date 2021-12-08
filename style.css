@@ -1,6 +1,6 @@
 p {
     font-size: 12px !important;
-    };
+    }
 
 /* 1. Selector por nombre de etiqueta */
 h1 {
@@ -56,4 +56,11 @@ li + li {
 a[href="CSScookbook.com"] {
     text-decoration: none;
     }
+
+/* 8. Selectores por clase */
+
+.warning {
+    font-weight: bold;
+    }
     
+
